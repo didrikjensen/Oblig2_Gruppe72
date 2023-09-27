@@ -12,3 +12,17 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
+
+.navKnapper{
+    background-color: white;
+    padding: 15px;
+    border-style: groove;
+    width: 50vw;
+    text-align: center;
+    font-weight: 1000;
+    font-size: larger;
+}
+
+.navbutton:hover{
+    background-color: rgb(189, 189, 189);
+}
