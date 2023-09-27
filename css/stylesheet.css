@@ -1,1 +1,8 @@
+body{
+    background-color: gray;
+}
 
+.side{
+    background-color: white;
+    margin: 10px;
+}
