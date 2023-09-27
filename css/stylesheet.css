@@ -19,10 +19,10 @@ body{
     border-style: groove;
     width: 50vw;
     text-align: center;
-    font-weight: 1000;
+    font-weight: bolder;
     font-size: larger;
 }
 
-.navbutton:hover{
+.navKnapper:hover{
     background-color: rgb(189, 189, 189);
 }
