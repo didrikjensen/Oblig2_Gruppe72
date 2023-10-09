@@ -21,13 +21,17 @@ body{
 .navKnapper{
     background-color: #E59500;
     display: block;
-    width: 100%;
+    width: 20vw;
     border: none;
     color: white;
-    padding: 14px 28px;
+    padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .navKnapper:hover{
