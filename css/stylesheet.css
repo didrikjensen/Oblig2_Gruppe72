@@ -43,3 +43,8 @@ body{
 #forfatter{
     font-style: italic;
 }
+
+#forsidebildet{
+    max-width: 100%;
+    height: auto;
+}
