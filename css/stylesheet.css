@@ -45,9 +45,6 @@ body{
 }
 
 #forsidebildet{
-    max-width: inherit;
-    max-height: inherit;
-    width: inherit;
-    height: inherit;
-    object-fit: cover;
+   width: 90vw;
+   height: auto;
 }
