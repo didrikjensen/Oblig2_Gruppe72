@@ -42,9 +42,13 @@ body{
 
 #forfatter{
     font-style: italic;
+    color: #E59500;
 }
 
-#forsidebildet{
-   width: 90vw;
-   height: auto;
+.forsidebildet{
+    width: auto; 
+  max-width: 100%; 
+  height: auto; 
+
+
 }
