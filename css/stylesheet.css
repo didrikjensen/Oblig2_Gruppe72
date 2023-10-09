@@ -45,6 +45,6 @@ body{
 }
 
 #forsidebildet{
-    max-width: 100%;
+    max-width: inherit;
     height: auto;
 }
