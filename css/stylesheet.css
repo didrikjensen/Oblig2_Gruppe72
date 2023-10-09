@@ -39,3 +39,7 @@ body{
 .navKnapper:hover{
     background-color: rgb(189, 189, 189);
 }
+
+#forfatter{
+    font-style: italic;
+}
