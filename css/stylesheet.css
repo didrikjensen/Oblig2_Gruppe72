@@ -14,15 +14,21 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: stretch;
+    background-color: #315659;
+    border-radius: 5px;
 }
 
 .navKnapper{
-    background-color: white;
-    padding: 15px;
-    border-style: groove;
+    background-color: #E59500;
+    display: block;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
     text-align: center;
-    font-weight: bolder;
-    font-size: larger;
+
 }
 
 .navKnapper:hover{
