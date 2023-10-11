@@ -17,7 +17,6 @@ body{
     background-color: #315659;
     border-radius: 5px;
     box-shadow: 13px 14px 15px -3px rgba(0,0,0,0.1);
-    position: sticky;
 }
 
 .navKnapper{
@@ -43,13 +42,9 @@ body{
 
 #forfatter{
     font-style: italic;
-    color: #E59500;
 }
 
-.forsidebildet{
-    width: auto; 
-  max-width: 100%; 
-  height: auto; 
-
-
+#forsidebildet{
+   width: 90vw;
+   height: auto;
 }
