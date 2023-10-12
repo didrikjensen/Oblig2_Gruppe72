@@ -96,7 +96,7 @@ h1{
 
 #forfatter{
   font-style: italic;
-  color: #a9a9a9;
+  color: #000000;
   font-size: 15px;
 }
 
@@ -134,5 +134,5 @@ footer{
 }
 
 em{
-  color: #cc5858;
+  color: #fd1919;
 }
