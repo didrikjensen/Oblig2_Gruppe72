@@ -1,53 +1,138 @@
+*{
+  font-family: Arial, sans-serif;
+}
+
 body{
-    background-color: #2C393A;
+  background-color: #2C393A;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0;
+}
+
+.body2{  background-color: #F2F2F2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
 }
 
 .side{
-    background-color: #F2F2F2;
-    margin: 10px;
-    padding: 20px;
-    width: 90vw;
+  background-color: #F2F2F2;
+  margin: 5vw 10px 10px 10px;
+  padding: 35px;
+  min-width: 83vw;
+  max-width: 86vw;
+  border-radius: 5px;
+  align-self: center;
+}
+.side2{
+  background-color: #F2F2F2;
+  margin: 0;
+}
+
+.side2boks{
+padding: 0 23vw 0 23vw;
+}
+
+.side2underboks{
+  padding: 1vh 3vw 1vh 7vw;
 }
 
 .navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: stretch;
-    background-color: #315659;
-    border-radius: 5px;
-    box-shadow: 13px 14px 15px -3px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+
+}
+.side .navbar{
+  background-color: #315659;
+  border-radius: 5px;
+  box-shadow: 13px 14px 15px -3px rgba(0,0,0,0.1);
+}
+
+.side2 .navbar{
+  background-color: #FFDC00;
 }
 
 .navKnapper{
-    background-color: #E59500;
-    display: block;
-    width: 20vw;
-    border: none;
-    color: rgb(111, 143, 175);
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-    margin: 10px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 900;
-    box-shadow: 13px 14px 15px -3px rgba(0,0,0,0.1);
-}
-a{
-    text-decoration: none;
+  display: block;
+  width: 20vw;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 900;
 }
 
-.navKnapper:hover{
-    background-color: rgb(189, 189, 189);
+.side .navKnapper{
+  background-color: #E59500;
+  border-radius: 5px;
+  box-shadow: 13px 14px 15px -3px rgba(0,0,0,0.1);
+}
+.side2 .navKnapper{
+  background-color: #FFDC00;
+  border-radius: 5px;
+}
+
+.side .navKnapper:hover{
+  background-color: rgb(189, 189, 189);
+}
+
+a{
+  text-decoration: none;
+}
+
+
+h1{
+  font-size: 45px;
+  padding: 0;
+  margin: 0;
 }
 
 #forfatter{
-    font-style: italic;
+  font-style: italic;
+  color: #a9a9a9;
+  font-size: 15px;
 }
 
 #forsidebildet{
-   width: 90vw;
-   height: auto;
+  max-width: 85vw;
+  height: auto;
+  max-height: 76vh;
+}
+footer{
+  background-color: rgba(229, 149, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  margin: 40px 0;
+}
+
+.foot2{
+  list-style-type: none;
+  color: #000000;
+}
+
+.foot1{
+  list-style-type: none;
+  color: #F2F2F2;
+}
+
+#tema{
+  color: #69cc69;
+  font-style: italic;
+  margin: 0;
+  padding: 5vh 0 0 0;
+}
+
+.side2 h1{
+  margin: 5vh 0 2vh 0 ;
+}
+
+em{
+  color: #cc5858;
 }
